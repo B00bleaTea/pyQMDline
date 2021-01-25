@@ -5,4 +5,3 @@
 > * it doesn't take that long to set up, so why not?
 
 ### current status and current version: BETA, 1.1
-[//]: # (LICENSE for pyQMDline 1.1+ beta)
