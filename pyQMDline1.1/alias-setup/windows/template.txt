@@ -1,0 +1,31 @@
+TO MAKE A *.CMD SCRIPT RUN ON CMD BOOT
+
+1. create a file called " init.cmd " in your %USERPROFILE% directory (aka. c:\user\username)
+2. open the file in notepad and put this code in it:
+[ something ] = put your own value here ( without the brackets )
+DOSKEY pyQMD=cd [ path\to\pyQMDline ] && [ your python alias ( usually py ) ] [ path\to\pyQMDline\__main__.py ] && cls
+2.1 EXAMPLE
+DOSKEY pyQMD=cd c:\pyQMDline && py c:\pyQMDline\__main__.py && cls
+3. open your command prompt as administrator and run this command
+reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun ^
+  /t REG_EXPAND_SZ /d "%"USERPROFILE"%\init.cmd" /f
+3. reboot your machine and type " pyQMD " in your command prompt and see if it works
+
+RESOURCE:
+1. create a init.cmd file in your %USERPROFILE% folder, seperate your commands with && or write them in new lines
+
+2. add cls at the end of your init.cmd file ( exc. color 2 && cls or
+color 2
+cls
+
+3. go to your admin level cmd promt and paste in this command :
+===================
+reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun ^
+  /t REG_EXPAND_SZ /d "%"USERPROFILE"%\init.cmd" /f
+=====================
+
+
+4. finished! now your commands should run when cmd boots, if you want my init.cmd file:
+======================
+prompt $T $C$D$F $B $P $$$S && cls
+======================

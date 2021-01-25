@@ -1,0 +1,4 @@
+{"QMD": os.path.realpath("./"), "STOP": "pyQMDline", "boot": True, "system-folder": "./system", "autorun": [], "version": 1.1}
+
+# this is the PATH of pyQMDline
+# if you don't know what you're doing, please leave this file as is
