@@ -1,0 +1,28 @@
+======== commands ========
+
+exit [optional arg: -f] - exits the terminal, -f forces the quit            [ Utilities.exit ]
+help - displays the help page                                               [ Utilities.help ]
+echo [msg: str] - returns a given message                                   [ Utilities.std_output ]
+cwd - displays the current working directory                                [ Utilities.current_working_dir ]
+URL [url: url] - opens a given url in your default browser                  [ Utilities.open_url ]
+
+chpass [newPass: str] - changes the password with authentication            [ User.change_pass ]
+chuser [newName: str] - changes the username with authentication            [ User.change_pass ]
+chhost [newPass: str] - changes the host with authentication                [ User.change_pass ]
+neofetch - displays some info about pyQline ( BETA )                        [ User.info ]
+
+cd [dir: open] - change your CWD                                            [ FilePaths.change_dir ]
+ls - list the contents of your CWD                                          [ FilePaths.list_dir ]
+
+file [name: open] - make a new file in your CWD                             [ FilePaths.make_file ]
+dir [name: open] - make a new directory in your CWD                         [ FilePaths.make_dir ]
+rm [name: open] - remove a file or a directory                              [ FilePaths.remv ]
+dump [file: open] - dump the contents of the specified file                 [ FilePaths.show_content ]
+WRITE [file: open] - add contents to a file                                 [ FilePaths.add_content ]
+OVERWRITE [file: open] - overwrite the contents of a file                   [ FilePaths.overwrite_content ]
+
+POST [url: url] [data: json] [get_type: requests] - make a POST request     [ Requests.POST ]
+GET [url: url] [params: json] [get_type: requests] - make a GET request     [ Requests.GET ]
+
+py [code: eval] - execute python code                                       [ Compile.python ]
+shell [code: system] - execute shell commands                               [ Compile.shell ]
