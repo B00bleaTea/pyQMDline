@@ -1,0 +1,64 @@
+============== COMMANDS ==============
+
+DEFINITIONS:
+[ ] - required option
+( ) - optional option
+
+_____ CLASS: Utilities _____
+exit (force (-f)) - exit pyQMDline, -f = force, which will exit without
+					asking you any questions
+help ( examples (-e)) - bring the help page up
+echo (message: str) - echo back the supplied input - if not supplied echos a newline
+wd - show current directory you're in
+URL [url: str] - open a supplied URL in your default browser
+fclr - (fake) clear the console
+yt-download [url: str] - download a youtube video in ./system/system-folders/media
+date - show your current date
+printf [FormatibaleString: str] - like echo, but supports formating with f'', \n, etc.
+
+_____ CLASS: User _____
+chpass [newPass: str] - change the password to the new, supplied one with authentication
+chuser [newUser: str] - change the username to the new, supplied one with authentication
+chhost [newHost: str] - change the host machine's name to the new, supplied one with authentication
+neofetch - display some info about your installation of pyQMDline
+ver - display the version of pyQMDline you have
+
+_____ CLASS: FilePaths _____
+cd [dir: open] - change directory to a new, existing one
+ls - list all files and directories in your current working directory
+file [filename: str] - create a new file in your current working directory
+dir [dirname: str] - create a new directory in in your current working directory
+rm [fireORdir: open] - remove a file or a directory
+dump [filename: open] - dump the contents of a file as text
+WRITE [filename: open] [content: str] - add content to a file
+OVERWRITE [filename: open] [content: str] - overwrite a file with new content
+trash [file: open] or (clear (-c)) / (list (-l)) - put something into your trashcan, you can clan it
+												   manually, but there's an autorun script for tha too in PATH
+mv [path: open] [newPath: open] - move a file or a directory to the new, supplied path
+
+_____ CLASS: Requests _____
+POST [url: str] [data: dict] [gettype: requests] - make a POST request to a supplied website
+												   you can check https://pypi.org/project/requests/
+												   and see all the "gettype" methods there
+												   like "json" or "text"
+
+GET [url: str] [params: dict] [gettype: requests] - make a GET request to a supplied website
+												   you can check https://pypi.org/project/requests/
+												   and see all the "gettype" methods there
+												   like "json" or "text"
+
+ip - get your ip
+
+_____ CLASS: Compile _____
+py [code: str] - execute python code
+shell [code: str] - execute code in your default terminal
+pyql [file: open] - execute *.pyql files, more about it in the README.md ( ./README.md where ./ = folder's root)
+
+_____ CLASS: Process _____
+prc - list all processes
+prc-bn [app_name: str] - find a running process by its name
+prc-bp [pid: int] - find a process by its name
+kill [pid: int] - kill a process
+
+=======================================
+[ run " help -e " for examples ]

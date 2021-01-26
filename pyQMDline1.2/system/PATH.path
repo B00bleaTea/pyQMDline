@@ -1,0 +1,19 @@
+{"python": None,
+"QMD": os.path.realpath("./"),
+"STOP": "pyQMDline",
+"boot": True,
+
+"system-folder": "./system",
+
+"media": "../system/system-folders/media",
+"documents": "../system/system-folders/documents",
+"trash": "../system/system-folders/trash",
+
+"autorun": ['./LICENSE/__license__.py',
+			'./system/system-folders/EMPTY_TRASH.py'],
+
+"version": 1.2}
+
+# this in the PATH of your download of pyQMDline
+# if you don't know what you're doing it's possible that you'll break it
+# AKA. don't touch anything if you're not experienced enough
