@@ -1,0 +1,96 @@
+============== EXAMPLES ==============
+
+-- exit --
+exit
+exit -f
+
+-- help --
+help
+help -e
+
+-- echo --
+echo
+echo hello
+echo hello world
+
+-- date --
+date
+
+-- printf --
+printf "hello\nworld"
+printf f'{__file__} is the file'
+
+-- wd --
+wd
+
+-- URL --
+URL https://www.google.com/
+
+-- fclr --
+fclr
+
+-- chpass/chuser/chhost --
+chpass pass123
+chuser git-user-62
+chhost pyQMD
+
+-- neofetch --
+neofetch
+
+-- ver --
+ver
+
+-- cd --
+cd ..
+cd .
+cd ../../test/test/
+cd test
+
+-- ls --
+ls
+
+-- file --
+file test.txt
+
+-- dir --
+dir test
+
+-- rm --
+rm test
+( DISCLAIMER: NEVER REMOVE THE ./ FOLDER IF YOU'RE IN A FOLDER LOWER THAN
+./system/somefolder/ )
+
+-- WRITE/OVERWRITE/dump --
+WRITE test.txt hello
+WRITE test.txt hopeless world
+OVERWRITE test.txt hey
+dump test.txt
+
+-- trash --
+trash -l
+trash -c
+trash -c -l
+trash mydir
+trash file.txt
+
+-- mv --
+mv hello.txt ./test
+
+-- POST/GET/ip --
+POST https://www.google.com/ {} text
+GET https://randomuser.me/ {} json
+ip
+
+-- py/shell/pyql --
+py print(' h e l l o ')
+shell echo hello world
+pyql main.
+
+-- prc/prc-bn/prc-bp/kill --
+prc
+prc-bn chrome
+prc-bp 82513
+kill 82513
+
+=======================================
+[ run " help " for general help ]

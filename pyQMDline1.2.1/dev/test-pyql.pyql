@@ -1,0 +1,3 @@
+echo hello world
+echo this is my first pyql program
+exit -f
