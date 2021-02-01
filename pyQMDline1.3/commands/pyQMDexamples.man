@@ -1,0 +1,61 @@
+clr
+clr -F
+exit
+exit -f
+help
+help -e
+echo
+echo hello
+echo hello\nworld
+date
+printf
+printf hello
+printf hello\nworld
+qfetch
+theme my_awesome_theme.pqtheme
+diskscan
+netscan
+URL https://www.google.com/
+chpass iamawesome123
+chuser qser
+chhost qbox
+ver
+cd ..
+cd system
+ls
+mv -F test directory -D tmp directory
+mv -F test -D tmp
+rm tmp
+rm tmp directory
+wd
+file hello.txt
+file hello world.txt
+dir hello
+dir hello world
+trash hello.txt
+trash hello world.txt
+trash hello
+trash hello world
+trash -l
+trash -r hello.txt
+trash -r hello world.txt
+trash -r hello
+trash -r hello world
+trash hello world
+trash -c
+dump hello.txt
+WRITE -F hello.txt -C hello world
+WRITE -F hello world.txt -C hello world
+OVERWRITE -F hello.txt -C hello world
+OVERWRITE -F hello world.txt -C hello world
+POST https://google.com/ {} text
+GET https://randomuser.me/api {} json
+ip
+py print('hello')
+py print('hello world')
+shell echo "hello"
+pyql my_awesome_script.pyql
+prc
+prc-bn chrome
+prc-bp 7283
+kill 7283

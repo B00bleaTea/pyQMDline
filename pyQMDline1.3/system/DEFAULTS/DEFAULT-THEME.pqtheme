@@ -1,0 +1,21 @@
+# text foreground
+INPUT_FORE = 'YELLOW'
+OUTPUT_FORE = 'MAGENTA'
+ERRORS_FORE = 'RED'
+SUCCESS_FORE = 'GREEN'
+
+# text backround
+INPUT_BACK = 'RESET'
+OUTPUT_BACK = 'RESET'
+ERRORS_BACK = 'RESET'
+SUCCESS_BACK = 'RESET'
+
+# text effects
+INPUT_EFFECT = 'NORMAL'
+OUTPUT_EFFECT = 'NORMAL'
+ERRORS_EFFECT = 'NORMAL'
+SUCCESS_EFFECT = 'NORMAL'
+
+
+# all colour, backround and effect names
+# can be found in https://pypi.org/project/colorama/

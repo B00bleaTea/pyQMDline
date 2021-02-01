@@ -1,0 +1,107 @@
+command testing:
+clr - y
+clr -F - y
+exit - y
+exit -f - y
+help - y
+help -e - y
+echo hello - y
+echo - y
+echo {User} - y
+echo hello\nworld - y
+date - y
+date -totallyreakarg - y
+printf hello - y
+printf {User} - y
+printf - y
+printf {str(0)} - y
+printf hello\nworld -
+qfetch - y
+qfetch -totallyreakarg - y
+theme test.pqtheme - y
+theme no.pqtheme - y
+theme - y
+diskscan - y
+diskscan -totallyreakarg - y
+netscan - y
+netscan -totallyreakarg - y
+URL - y
+URL https://youtube.com/ - y
+chpass - y
+chpass hello - y
+chpass hello                eeeeee - y
+chuser - y
+chuser dev - y
+chuser dev                  eeeeeee - y
+chhost - y
+chhost qbox - y
+chhost qbox                 eeeeeeee - y
+ver - y
+ver -totallyreakarg - y
+cd - y
+cd .. - y
+cd system - y
+cd ../../../../ - y
+cd commands/qmd_imports - y
+ls - y
+ls -totallyreakarg - y
+mv -F README.txt -D DEFAULTS - y
+mv -F README.txt -D .. - y
+mv -F -D - y
+mv -F -D DEFAULTS - y
+mv -F test0 -D test
+rm hello.txt - y
+rm file name.txt - y
+rm test - y
+wd - y
+wd -totallyreakarg - y
+file hello.txt - y
+file file name.txt - y
+dir hello
+dir dir name - y
+trash hello.txt - y
+trash file name.txt - y
+trash -l - y
+trash -totallyreakarg - y
+trash -c - y
+trash -c (on startup) - y
+dump hello.txt - y
+dump file name.txt - y
+WRITE -F hello.txt -C HI - y
+WRITE -F hello.txt -C HI HELLO - y
+WRITE -F file name.txt -C HI - y
+WRITE -F file name.txt -C HI HELLO - y
+OVERWRITE -F hello.txt -C HI - y
+OVERWRITE -F hello.txt -C HI HELLO - y
+OVERWRITE -F file name.txt -C HI - y
+OVERWRITE -F file name.txt -C HI HELLO - y
+POST - y
+POST https://www.youtube.com/ - y
+POST https://www.youtube.com/ {} - y
+POST https://www.youtube.com/ {} text - y
+GET https://www.youtube.com/ - y
+GET https://www.youtube.com/ {} - y
+GET https://www.youtube.com/ {} text - y
+ip - y
+ip -totallyreakarg - y
+py - y
+py print('hello') - y
+py print(' h e l l o ') - y
+shell - y
+shell echo hello - y
+shell echo h e l l o - y
+pyql - y
+pyql totallyreal.pyql - y
+pyql ../dev/test-pyql.pyql
+prc -totallyreakarg - y
+prc-bn - y
+prc-bn -totallyreakarg - y
+prc-bn chrome - y
+prc-bp - y
+prc-bp 8298 - y
+kill - y
+kill 8298 - y
+popup - y
+popup hi - y
+sl - y
+sl -totallyreakarg - y
