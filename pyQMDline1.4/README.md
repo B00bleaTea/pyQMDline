@@ -12,6 +12,7 @@
   lets you run the previous command
 > new command: history;
   lets you see and clear your history
+> beta test of alias setup for windows
 ```
 
 ***
