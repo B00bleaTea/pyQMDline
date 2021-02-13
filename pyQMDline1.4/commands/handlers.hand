@@ -1,0 +1,58 @@
+{
+	"clr": Utilities.clear,
+	"exit": Utilities.exit,
+	"help": Utilities.help,
+	"echo": Utilities.std_output,
+	"date": Utilities.date,
+	"printf": Utilities.printf,
+	"qfetch": Utilities.info,
+	"theme": Utilities.set_theme,
+
+	"diskscan": Utilities.get_disk_info,
+	"netscan": Utilities.get_net_info,
+
+	"URL": Utilities.open_url,
+
+	"chpass": User.change_pass,
+	"chuser": User.change_user,
+	"chhost": User.change_host,
+	"ver": User.pyqmd_version,
+
+	"cd": FilePaths.change_dir,
+	"ls": FilePaths.list_dir,
+	"mv": FilePaths.move,
+	"rm": FilePaths.remv,
+	"wd": Utilities.current_working_dir,
+
+	"file": FilePaths.make_file,
+	"dir": FilePaths.make_dir,
+	"trash": FilePaths.trash,
+	"dump": FilePaths.show_content,
+
+	"WRITE": FilePaths.add_content,
+	"OVERWRITE": FilePaths.overwrite_content,
+
+	"POST": Requests.POST,
+	"GET": Requests.GET,
+	"ip": Requests.get_ip,
+	"ping": Requests.ping,
+
+	"py": Compile.python,
+	"shell": Compile.shell,
+	"pyql": Compile.pyql,
+
+	"prc": Process.processes,
+	"prc-bn": Process.find_by_name,
+	"prc-bp": Process.find_by_pid,
+	"kill": Process.kill_pid,
+
+	"popup": Random.popup,
+	"sl": Random.rid_tsil,
+	"bug-report": Random.bug_report,
+
+	"!!": CommandUtils.back,
+
+	"history": History.history
+}
+
+# all command handlers go in this file

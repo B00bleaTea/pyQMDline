@@ -1,0 +1,4 @@
+find the autorun file in your home folder and add this replacing the [ ]
+with your own values:
+
+alias pyQMD='cd [full path to pyQMDline's folder] && [python alias] [full path to pyQMDline's folder]/__main__.py'

@@ -1,0 +1,59 @@
+=========== HELP MANUAL OF PYQMDLINE ===========
+[ ] - required option
+( ) - optional option
+{ } - one of
+
+___ Utilities ___
+clr (fake (-F)) - clear your console, if -F is added it fake clears it
+exit (force (-f)) - exit pyQMDline, if -f is specified it doesn't ask you if you want to exit
+help (examples (-e)) - show the help page, if -e is specified it shows you the examples
+echo (message) - print the literal supplied message
+date - show your current datetime
+printf (message) - print the formatted message, for example \n becomes a newline
+qfetch - show some information about your system
+theme [theme_file] - set the theme of pyQMDline
+diskscan - show information about your disks
+netscan - show information about your network
+URL [url] - open a supplied url in your default browser
+
+___ User ___
+chpass [new_pass] - change your password
+chuser [new_username] - change your username
+chhost [host_name] - change your host name
+ver - show your current pyQMDLine version
+
+___ FilePaths ___
+cd [new_dir] - change your working directory
+ls - list contents in your working directory
+mv -F [file-or-dir] -D [new_directory] - move a file/directory to a new place
+rm [file-or-dir] - remove a file or a directory
+wd - show your current working directory
+file [filename] - create a new file
+dir [dirname] - create a new directory
+trash {[file-or-dir], [clear trashcan [-c]], [list trash contents [-l]], [recover [-r] [file-or-dir]} - utilize trashcan
+dump [filename] - dump the contents of a file as text
+WRITE -F [filename] -C [content] - add content to a file
+OVERWRITE -F [filename] -C [content] - overwrite all content of a
+
+___ Requests ___
+POST [url] [params] [return_type] - make a POST requests to a website using the requests module
+GET [url] [params] [return_type] - make a GET requests to a website using the requests module
+ip - get your IP address
+ping [url_or_ipaddr] - lets you ping a server
+
+___ Compile ___
+py [code] - execute python code
+shell [code] - execute terminal commands
+pyql [pyql-file] - execute a *.pyql file, it's pyQMDline's version of *.bat or *.sh
+
+___ Process ___
+prc - get all running processes
+prc-bn (name) - get running processes with a specific name, if no name is specified will show no processes
+prc-bp [pid] - get a process running with a specific PID
+kill [pid] - kill a process
+
+___ CommandUtils ___
+!! (-R) - lets you run the previous command, if -R is specified it allows recursion
+
+___ History ___
+history (-C) - lets you see your history, if -C is specified it clears your history

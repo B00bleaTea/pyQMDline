@@ -1,0 +1,10 @@
+colorama
+easygui
+GPUtil
+psutil
+requests
+tabulate
+
+# take a look at
+# ./commands/qmd_imports/__init__.py;
+# ./imports/__init__.py
